@@ -1,6 +1,23 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/psalm/compare/v26.2.2...26.x)
+## [Unreleased](https://github.com/valkyrjaio/psalm/compare/v26.2.3...26.x)
+
+## [v26.2.3](https://github.com/valkyrjaio/psalm/compare/v26.2.2...v26.2.3) - 2026-08-02
+
+* [Workflow] ci: Update .github workflow refs to v26.18.2 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/164
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/163
+* [Workflow] ci: Expose the allow diverged input on the rebase to master workflow by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-psalm-php/pull/165
+* [Git] chore: Ignore the .worktrees directory by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-psalm-php/pull/166
+* [Workflow] ci: Update .github workflow refs to v26.19.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/168
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/167
+* [Workflow] ci: Pass each reusable workflow the secrets it declares by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-psalm-php/pull/169
+* [CopyrightHeader] ci: Enforce the license header under .github by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-psalm-php/pull/170
+* [Markdown] style: Normalize the formatting of every document by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-psalm-php/pull/171
+* [Workflow] ci: Update .github workflow refs to v26.20.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/172
+* [Workflow] ci: Add the Markdown formatting check by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-psalm-php/pull/173
+* [Copyright] style: Update header to add copyright year, remove email, and name the license by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/ci-psalm-php/pull/174
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/175
+* [Workflow] ci: Update .github workflow refs to v26.21.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/177
 
 ## [v26.2.2](https://github.com/valkyrjaio/psalm/compare/v26.2.1...v26.2.2) - 2026-08-01
 
