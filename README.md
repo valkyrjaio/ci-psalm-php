@@ -52,7 +52,7 @@ The CI directory ships with a `psalm.xml` that serves as the reference
 configuration. Key settings:
 
 | Setting                   | Value                | Effect                                                                         |
-|---------------------------|----------------------|--------------------------------------------------------------------------------|
+| ------------------------- | -------------------- | ------------------------------------------------------------------------------ |
 | `errorLevel`              | `1`                  | Strictest level — all issues reported                                          |
 | `totallyTyped`            | `true`               | Every expression must be typed                                                 |
 | `findUnusedBaselineEntry` | `true`               | Warns when a baseline suppression is no longer needed                          |
@@ -62,7 +62,7 @@ configuration. Key settings:
 ### Scanned Paths
 
 | Path      | Included |
-|-----------|----------|
+| --------- | -------- |
 | `src/`    | Yes      |
 | `vendor/` | No       |
 
@@ -71,7 +71,7 @@ configuration. Key settings:
 These issue types are suppressed globally via `<issueHandlers>`:
 
 | Issue                                  | Reason                                                                  |
-|----------------------------------------|-------------------------------------------------------------------------|
+| -------------------------------------- | ----------------------------------------------------------------------- |
 | `PropertyNotSetInConstructor`          | Properties initialised outside constructors are common in the framework |
 | `DeprecatedClass`                      | Suppressed temporarily while the `Env` class deprecation is in progress |
 | `ClassMustBeFinal`                     | Framework classes are intentionally left non-final for extensibility    |
@@ -96,7 +96,7 @@ to be called from other repositories via `workflow_call`.
 ### Inputs
 
 | Input                  | Type    | Default              | Description                                                                                                                                           |
-|------------------------|---------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------------------- | ------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `paths`                | string  | —                    | **Required.** YAML filter spec with two keys: `ci` (CI config files that trigger a base-branch fetch) and `files` (all files that trigger the check). |
 | `post-pr-comment`      | boolean | `true`               | Post a PR comment on failure and remove it on success. Disable when the calling workflow handles its own reporting.                                   |
 | `composer-options`     | string  | `''`                 | Extra flags passed to every `composer install` step (e.g. `--ignore-platform-req=ext-openswoole`).                                                    |
@@ -152,9 +152,6 @@ Licensed under the [MIT license][MIT license url]. See
 [`LICENSE.md`](./LICENSE.md).
 
 [contributing url]: https://github.com/valkyrjaio/.github/blob/master/CONTRIBUTING.md
-
 [vocabulary url]: https://github.com/valkyrjaio/.github/blob/master/VOCABULARY.md
-
 [security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/master/SECURITY.md
-
 [MIT license url]: https://opensource.org/licenses/MIT
