@@ -1,5 +1,5 @@
 {
-  "name"              : "valkyrja/psalm",
+  "name"              : "valkyrja/ci-psalm",
   "type"              : "project",
   "description"       : "Psalm for the Valkyrja Project.",
   "homepage"          : "https://www.valkyrja.io/",
