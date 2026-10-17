@@ -19,12 +19,12 @@ final class PsalmInfo
      *
      * @var non-empty-string
      */
-    public const string VERSION = '26.3.71';
+    public const string VERSION = '26.3.72';
 
     /**
      * The Psalm package version build datetime.
      *
      * @var non-empty-string
      */
-    public const string VERSION_BUILD_DATE_TIME = 'October 16 2026 08:05:22 MST';
+    public const string VERSION_BUILD_DATE_TIME = 'October 17 2026 07:00:14 MST';
 }
