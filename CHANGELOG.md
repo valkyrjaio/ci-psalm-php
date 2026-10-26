@@ -1,6 +1,11 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/psalm/compare/v26.3.80...26.x)
+## [Unreleased](https://github.com/valkyrjaio/psalm/compare/v26.3.81...26.x)
+
+## [v26.3.81](https://github.com/valkyrjaio/psalm/compare/v26.3.80...v26.3.81) - 2026-10-26
+
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/360
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/ci-psalm-php/pull/361
 
 ## [v26.3.80](https://github.com/valkyrjaio/psalm/compare/v26.3.79...v26.3.80) - 2026-10-25
 
