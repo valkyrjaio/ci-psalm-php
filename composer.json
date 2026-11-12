@@ -17,7 +17,7 @@
   ],
   "require"           : {
     "php"         : ">=8.4.27",
-    "vimeo/psalm" : "^6.20.10"
+    "vimeo/psalm" : "^6.20.11"
   },
   "autoload"          : {
     "psr-4" : {
